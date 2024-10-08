@@ -7,8 +7,13 @@ class Car:
         self.for_sale = for_sale
 
 
-car1 = Car("Mustang",2024,"red",False)
-car2 = Car("Corvete", 2025, "blue",True)
+    
 
-print(car1.model)        
-        
+    def drive(self):
+        print(f"You drive the {self.model}")  
+   
+   
+   # car1 = Car("Mustang",2024,"red",False)
+# car2 = Car("Corvete", 2025, "blue",True)
+
+# print(car1.model)       

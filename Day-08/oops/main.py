@@ -5,3 +5,5 @@ print(car4.model)
 print(car4.year)
 print(car4.color)
 print(car4.for_sale)
+
+car4.drive()
